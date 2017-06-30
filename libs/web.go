@@ -9,7 +9,7 @@ import(
 
     //extends
     . "bakerstreet-club/logs"
-    iconv "github.com/sherlock-help/iconv-go"
+//    iconv "github.com/sherlock-help/iconv-go"
 )
 
 //param:
@@ -49,7 +49,7 @@ func DoQueryByURL(sURL string, oURLBring []map[string]string) interface{} {
       }
     }
    rq.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
-   rq.Header.Set("Accept-Encoding", "gzip, deflate, sdch")
+   //rq.Header.Set("Accept-Encoding", "gzip, deflate, sdch")
    rq.Header.Set("Accept-Language", "zh-CN,zh;q=0.8")
    rq.Header.Set("Cache-Control", "max-age=0")
    rq.Header.Set("Connection", "keep-alive")
@@ -59,8 +59,8 @@ func DoQueryByURL(sURL string, oURLBring []map[string]string) interface{} {
    dataPost, _ := ioutil.ReadAll(respPost.Body)
 
    //change encode
-   out := make([]byte,len(dataPost))
-   iconv.Convert(dataPost, out, "gb2312", "utf-8")
+   //out := make([]byte,len(dataPost))
+  // iconv.Convert(dataPost, out, "gb2312", "utf-8")
 
    return string(dataPost)
 }
