@@ -13,6 +13,7 @@ import(
 
   GoQuery "github.com/bakerstreet-club/goquery"
   web "SEP.DataListener/libs"
+  "SEP.DataListener/libs"
   //"github.com/bakerstreet-club/otto"
 )
 
@@ -25,8 +26,13 @@ var (
     oIni = ini.GetSecMap("web.five", &five{}).(*five)
 )
 
+var oArrayDepts []string
+var oArrayDoctors []string
 var oMapNumbers map[string]string
 func init(){
+
+    //oArrayDepts = make([]string)
+    //oArrayDoctors = make([]string)
     //统计号源
     oMapNumbers = make(map[string]string)
 }
@@ -77,12 +83,13 @@ func loopPageQuery(sPage string){
       oThisWeek.Find("a").Each(func(index int, sel *GoQuery.Selection) {
          iThisWeekCount++
       })
+      sDoctor := v.Find(".index_top_in_name").Text()
       if 0 == iThisWeekCount {
           oThisWeek.Find("span").Each(func(index int, sel *GoQuery.Selection){
 
             sText := sel.Text()
             oFullSplit := strings.Split(sText, "|")
-            oMapNumbers[oFullSplit[0]] = "0"
+            oMapNumbers[sDoctor + "$" + oFullSplit[0]] = "0"
             sThisFullText += sText + "#"
           })
           if "" != sThisFullText{
@@ -92,7 +99,7 @@ func loopPageQuery(sPage string){
           oThisWeek.Find("a").Each(func(index int, sel *GoQuery.Selection){
             sText := sel.Text()
             oNoFullSplit := strings.Split(sText, "|")
-            oMapNumbers[oNoFullSplit[0]] = oNoFullSplit[1]
+            oMapNumbers[sDoctor + "$" + oNoFullSplit[0]] = oNoFullSplit[1]
             sThisNoFullText += sText + "#"
           })
           if "" != sThisNoFullText {
@@ -111,7 +118,7 @@ func loopPageQuery(sPage string){
           oNextWeek.Find("span").Each(func(index int, sel *GoQuery.Selection){
               sText := sel.Text()
               oFullSplit := strings.Split(sText, "|")
-              oMapNumbers[oFullSplit[0]] = "0"
+              oMapNumbers[sDoctor + "$" + oFullSplit[0]] = "0"
               sNextFullText += sText + "#"
           })
           if "" != sNextFullText {
@@ -121,7 +128,7 @@ func loopPageQuery(sPage string){
           oNextWeek.Find("a").Each(func(index int, sel *GoQuery.Selection){
               sText := sel.Text()
               oNoFullSplit := strings.Split(sText, "|")
-              oMapNumbers[oNoFullSplit[0]] = oNoFullSplit[1]
+              oMapNumbers[sDoctor + "$" + oNoFullSplit[0]] = oNoFullSplit[1]
               sNextNoFullText += sText + "#"
           })
           if "" != sNextNoFullText {
@@ -130,15 +137,19 @@ func loopPageQuery(sPage string){
       }
 
       //iThisWeekCount = v.Find(".div_index_bottom .div_bottom_isweek .isweek_ind span").Text()
+      sDept := v.Find(".index_top_in_exp").Text()
+      oArrayDepts = append(oArrayDepts, sDept)
+      oArrayDoctors = append(oArrayDoctors, sDoctor)
 
       fmt.Println(
-        v.Find(".index_top_in_name").Text() +
+        sDoctor +
+        "("+ sDept +")" +
         "[这周:" +
         sThisFullText + "  " + sThisNoFullText +
         "][下周:" +
         sNextFullText + "  " + sNextNoFullText + "]")
-      //fmt.Println(v.Find("index_top_in_name").Text())
-      fmt.Println("==================================")
+        //fmt.Println(v.Find("index_top_in_name").Text())
+        fmt.Println("=============================================")
     })
 
     //page loop
@@ -155,6 +166,46 @@ func loopPageQuery(sPage string){
             if 2 == index {
                 sHref, _ := sel.Attr("href")
                 if "" == sHref {
+                  //save to xlsx
+                  //save to []string
+                  var oDataArray [][]string
+
+                  for k, v := range oArrayDoctors {
+
+                      var sThisWeek string
+                      var sNextWeek string
+                      for kk, vv := range oMapNumbers {
+                          if strings.Contains(kk, v + "$") {
+
+                              oKV := strings.Split(kk, "$")
+                              if len(oKV) < 2 {
+                                  continue
+                              }
+                              if strings.Contains(kk, "本周"){
+                                sThisWeek += oKV[1] + "[" + vv + "];"
+                              }
+                              if strings.Contains(kk, "下周"){
+                                sNextWeek += oKV[1] + "[" + vv + "];"
+                              }
+                          }
+                      }
+
+                      oDataArray = append(oDataArray, []string{
+                          oArrayDepts[k],
+                          v,
+                          sThisWeek,
+                          sNextWeek,
+                      })
+                  }
+
+
+                  libs.SaveXlsx(
+                    "第五医院信息表.xlsx",
+                    "医生号源表",
+                    []string{
+                      "科室", "姓名", "这周", "下周",
+                    },oDataArray)
+
                     return
                 }
                 //fmt.Println(strconv.Itoa(iPageNext))
