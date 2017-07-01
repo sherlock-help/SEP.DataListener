@@ -9,6 +9,7 @@ import(
 
     //extends
     . "bakerstreet-club/logs"
+    GoQuery "github.com/bakerstreet-club/goquery"
 //    iconv "github.com/sherlock-help/iconv-go"
 )
 
@@ -16,8 +17,37 @@ import(
 //sURL
 //oURLBring the first is param; and second is header
 func QueryByURL(sURL string, oURLBring ...map[string]string) interface{}{
+
+    //this go query
+    return GoQueryByURL(sURL)
+
+    //query by http
     return DoQueryByURL(sURL, oURLBring)
 }
+
+//go query
+func GoQueryByURL(sURL string) interface{} {
+
+    //check first
+    if "" == sURL {
+        Error("sorry, the param named sURL is can not be empty!")
+        return ""
+    }
+
+    //go query begin
+    doc, err := GoQuery.NewDocument(sURL)
+    if nil != err {
+        Error(err.Error())
+    }
+    var sReText string
+    doc.Find("script").Each(func(i int, s *GoQuery.Selection){
+        //for Each
+
+        sReText = s.Text()
+    })
+    return sReText
+}
+
 func DoQueryByURL(sURL string, oURLBring []map[string]string) interface{} {
 
     //check first
