@@ -6,6 +6,7 @@ import(
 
   //extends
   "SEP.DataListener/libs/ini"
+
   web "SEP.DataListener/libs"
   //"github.com/bakerstreet-club/otto"
 )
@@ -22,7 +23,7 @@ var (
 //listen website with http
 func ListenWebSite(){
 
-    sDoc := web.QueryByURL(oIni.RootURL, map[string]string{
+    oPostResponse := web.GetPostResponse(oIni.RootURL, map[string]string{
           "strSta" : "/UrpOnline/Home/Index/75_____",
           "orgId" : "75",
           "deptCode" : "",
@@ -45,7 +46,12 @@ func ListenWebSite(){
            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
            "X-Requested-With":"XMLHttpRequest",
       })
-      fmt.Println(web.GetPostDocSelect(sDoc, ".expert_div_index"))
+      defer oPostResponse.Body.Close()
+
+      oDoctors := web.GetPostDocSelect(oPostResponse, ".expert_div_index")
+      for _, v := range oDoctors {
+          fmt.Println(v)
+      }
     // oScripts := web.GoQueryByURLAndSelect(oIni.RootURL, "script")
     // var sAjaxScript string
     // if len(oScripts) > 7 {
