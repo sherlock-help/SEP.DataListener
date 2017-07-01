@@ -119,10 +119,11 @@ func DoPostURL(sURL string, oURLBring []map[string]string) interface{} {
    return string(dataPost)
 }
 
-func GetPostDocSelect(oDoc interface{}, sSelector string) []string {
+func GetPostDocSelection(oDoc interface{}, sSelector string) *GoQuery.Selection {
+
     if nil == oDoc {
       Error("sorry, the param named oDoc is can not be nil")
-      return []string{}
+      return nil
     }
 
     //doc goquery here
@@ -132,10 +133,12 @@ func GetPostDocSelect(oDoc interface{}, sSelector string) []string {
         return nil
     }
 
-    var oReText []string
-    doc.Find(sSelector).Each(func(i int, s *GoQuery.Selection){
-        //for Each
-        oReText = append(oReText, s.Text())
-    })
-    return oReText
+    //var oReSelection []*GoQuery.Selection
+    return doc.Find(sSelector)
+
+    // .Each(func(i int, s *GoQuery.Selection){
+    //     //for Each
+    //     oReSelection = append(oReSelection, s)
+    // })
+    // return oReSelection
 }

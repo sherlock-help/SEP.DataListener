@@ -3,10 +3,15 @@ package bizs
 import(
   //bulit-in
   "fmt"
+  "strings"
+  "strconv"
 
   //extends
   "SEP.DataListener/libs/ini"
 
+  . "bakerstreet-club/logs"
+
+  GoQuery "github.com/bakerstreet-club/goquery"
   web "SEP.DataListener/libs"
   //"github.com/bakerstreet-club/otto"
 )
@@ -20,21 +25,25 @@ var (
     oIni = ini.GetSecMap("web.five", &five{}).(*five)
 )
 
-//listen website with http
-func ListenWebSite(){
+var oMapNumbers map[string]string
+func init(){
+    //统计号源
+    oMapNumbers = make(map[string]string)
+}
 
+func loopPageQuery(sPage string){
     oPostResponse := web.GetPostResponse(oIni.RootURL, map[string]string{
           "strSta" : "/UrpOnline/Home/Index/75_____",
           "orgId" : "75",
           "deptCode" : "",
           "sex" : "0",
           "date" : "",
-          "page" : "1",
+          "page" : sPage,
           "orderType" : "1",
           "orgType" : "1",
     }, map[string]string{
            "Accept":"*/*",
-           "Accept-Encoding":"gzip, deflate",
+           //"Accept-Encoding":"gzip, deflate",
            "Accept-Language":"zh-CN,zh;q=0.8",
            "Content-Length":"104",
            "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
@@ -45,13 +54,122 @@ func ListenWebSite(){
            "Referer":"http://www.xmsmjk.com/UrpOnline/Home/Index/75_____1",
            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
            "X-Requested-With":"XMLHttpRequest",
-      })
-      defer oPostResponse.Body.Close()
+    })
 
-      oDoctors := web.GetPostDocSelect(oPostResponse, ".expert_div_index")
-      for _, v := range oDoctors {
-          fmt.Println(v)
+    oAllDom := web.GetPostDocSelection(oPostResponse, "*")
+
+    // fmt.Println(sPage)
+    // fmt.Println("++++++++++++++++++++++++++")
+     //fmt.Println(oAllDom.Text())
+    // fmt.Println("++++++++++++++++++++++++++")
+    // fmt.Println(oAllDom.Find(".list_paging"))
+    // fmt.Println("++++++++++++++++++++++++++")
+
+    oAllDom.Find(".expert_div_index").Each(func(_ int, v *GoQuery.Selection){
+      oThisWeek := v.Find(".div_index_bottom .div_bottom_isweek .isweek_ind")
+      oNextWeek := v.Find(".div_index_bottom .div_bottom_nsweek .isweek_ind")
+
+      //这周
+      var sThisFullText string
+      var sThisNoFullText string
+      //fmt.Println(oThisWeek.Find("a"))
+      var iThisWeekCount int = 0
+      oThisWeek.Find("a").Each(func(index int, sel *GoQuery.Selection) {
+         iThisWeekCount++
+      })
+      if 0 == iThisWeekCount {
+          oThisWeek.Find("span").Each(func(index int, sel *GoQuery.Selection){
+
+            sText := sel.Text()
+            oFullSplit := strings.Split(sText, "|")
+            oMapNumbers[oFullSplit[0]] = "0"
+            sThisFullText += sText + "#"
+          })
+          if "" != sThisFullText{
+            sThisFullText = sThisFullText[:len(sThisFullText) - 1]
+          }
+      }else{
+          oThisWeek.Find("a").Each(func(index int, sel *GoQuery.Selection){
+            sText := sel.Text()
+            oNoFullSplit := strings.Split(sText, "|")
+            oMapNumbers[oNoFullSplit[0]] = oNoFullSplit[1]
+            sThisNoFullText += sText + "#"
+          })
+          if "" != sThisNoFullText {
+            sThisNoFullText = sThisNoFullText[:len(sThisNoFullText) - 1]
+          }
       }
+      //下周
+      var sNextFullText string
+      var sNextNoFullText string
+      var iNextWeekCount int = 0
+      oNextWeek.Find("a").Each(func(index int, sel *GoQuery.Selection){
+          iNextWeekCount++
+      })
+
+      if 0 == iNextWeekCount {
+          oNextWeek.Find("span").Each(func(index int, sel *GoQuery.Selection){
+              sText := sel.Text()
+              oFullSplit := strings.Split(sText, "|")
+              oMapNumbers[oFullSplit[0]] = "0"
+              sNextFullText += sText + "#"
+          })
+          if "" != sNextFullText {
+              sNextFullText = sNextFullText[:len(sNextFullText) - 1]
+          }
+      }else{
+          oNextWeek.Find("a").Each(func(index int, sel *GoQuery.Selection){
+              sText := sel.Text()
+              oNoFullSplit := strings.Split(sText, "|")
+              oMapNumbers[oNoFullSplit[0]] = oNoFullSplit[1]
+              sNextNoFullText += sText + "#"
+          })
+          if "" != sNextNoFullText {
+              sNextNoFullText = sNextNoFullText[:len(sNextNoFullText) - 1]
+          }
+      }
+
+      //iThisWeekCount = v.Find(".div_index_bottom .div_bottom_isweek .isweek_ind span").Text()
+
+      fmt.Println(
+        v.Find(".index_top_in_name").Text() +
+        "[这周:" +
+        sThisFullText + "  " + sThisNoFullText +
+        "][下周:" +
+        sNextFullText + "  " + sNextNoFullText + "]")
+      //fmt.Println(v.Find("index_top_in_name").Text())
+      fmt.Println("==================================")
+    })
+
+    //page loop
+    oAllDom.Find(".list_paging").Each(func(_ int, v *GoQuery.Selection){
+        iPage, err := strconv.Atoi(sPage)
+        if nil != err {
+            Error(err.Error())
+            return
+        }
+
+        iPageNext := iPage + 1
+
+        v.Find(".list_paging_btn").Each(func(index int, sel *GoQuery.Selection){
+            if 2 == index {
+                sHref, _ := sel.Attr("href")
+                if "" == sHref {
+                    return
+                }
+                //fmt.Println(strconv.Itoa(iPageNext))
+                //fmt.Println("dohere")
+                loopPageQuery(strconv.Itoa(iPageNext))
+            }
+        })
+    })
+
+}
+
+//listen website with http
+func ListenWebSite(){
+
+    loopPageQuery("1")
     // oScripts := web.GoQueryByURLAndSelect(oIni.RootURL, "script")
     // var sAjaxScript string
     // if len(oScripts) > 7 {

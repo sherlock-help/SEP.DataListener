@@ -53,3 +53,82 @@
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 13:29:06 CST]:$_$  => system named SEP.DataListener init success .. 
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 13:35:44 CST]:$_$  => system named SEP.DataListener init success .. 
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 13:37:13 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 13:55:10 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 13:55:43 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 13:55:56 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:00:56 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:01:45 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:10:23 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:11:53 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:12:10 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:24:53 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:25:27 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:26:05 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:46:27 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:49:44 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:50:19 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:51:23 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:51:49 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:52:42 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:53:02 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:53:24 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 14:54:20 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:01:13 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:03:01 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:03:47 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:06:59 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:23:27 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:25:16 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:28:43 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 15:45:28 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:08:50 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:08:50 CST]:*_* http: read on closed response body
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:08:50 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:09:29 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:09:29 CST]:*_* http: read on closed response body
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:09:29 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:09:49 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:09:50 CST]:*_* http: read on closed response body
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:09:50 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:10:28 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:10:29 CST]:*_* http: read on closed response body
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:10:29 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:10:41 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:10:42 CST]:*_* http: read on closed response body
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:10:42 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:11:17 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:11:19 CST]:*_* http: read on closed response body
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:11:19 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:12:35 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:12:39 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:14:40 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:14:41 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:15:15 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:15:15 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:15:35 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:15:39 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:15:55 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:15:55 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:16:31 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-01 16:16:36 CST]:*_* http: read on closed response body
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:25:22 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:26:01 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:26:48 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:27:13 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:27:46 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:28:19 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:29:21 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:30:10 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:30:35 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:30:48 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:30:58 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:31:26 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:34:07 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:35:24 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:36:59 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:38:56 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:50:49 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:51:12 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:52:21 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:52:59 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-01 16:53:26 CST]:$_$  => system named SEP.DataListener init success .. 
