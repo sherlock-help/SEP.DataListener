@@ -13,42 +13,52 @@ import(
 //    iconv "github.com/sherlock-help/iconv-go"
 )
 
+func init(){
+  oDocBuffer = make(map[string] interface{})
+}
+//buffer here
+var oDocBuffer map[string]interface{}
+//get doc
+func GoQueryDoc(sURL string) interface{} {
+
+      if _, ok := oDocBuffer[sURL]; ok{
+          Info("get doc from buffer")
+          return oDocBuffer[sURL]
+      }
+      //check first
+      if "" == sURL {
+          Error("sorry, the param named sURL is can not be empty!")
+          return ""
+      }
+
+      //go query begin
+      doc, err := GoQuery.NewDocument(sURL)
+      if nil != err {
+          Error(err.Error())
+      }
+      oDocBuffer[sURL] = doc
+      return doc
+}
+
+//go query
+func GoQueryByURLAndSelect(sURL, sSelector string) []string {
+    doc := GoQueryDoc(sURL).(*GoQuery.Document)
+    var oReText []string
+    doc.Find(sSelector).Each(func(i int, s *GoQuery.Selection){
+        //for Each
+        oReText = append(oReText, s.Text())
+    })
+    return oReText
+}
+
 //param:
 //sURL
 //oURLBring the first is param; and second is header
 func QueryByURL(sURL string, oURLBring ...map[string]string) interface{}{
 
-    //this go query
-    return GoQueryByURL(sURL)
-
-    //query by http
-    return DoQueryByURL(sURL, oURLBring)
+     return DoPostURL(sURL, oURLBring)
 }
-
-//go query
-func GoQueryByURL(sURL string) interface{} {
-
-    //check first
-    if "" == sURL {
-        Error("sorry, the param named sURL is can not be empty!")
-        return ""
-    }
-
-    //go query begin
-    doc, err := GoQuery.NewDocument(sURL)
-    if nil != err {
-        Error(err.Error())
-    }
-    var sReText string
-    doc.Find("script").Each(func(i int, s *GoQuery.Selection){
-        //for Each
-
-        sReText = s.Text()
-    })
-    return sReText
-}
-
-func DoQueryByURL(sURL string, oURLBring []map[string]string) interface{} {
+func DoPostURL(sURL string, oURLBring []map[string]string) interface{} {
 
     //check first
     if sURL == "" {
@@ -68,21 +78,21 @@ func DoQueryByURL(sURL string, oURLBring []map[string]string) interface{} {
     bodyPost := ioutil.NopCloser(strings.NewReader(oParam.Encode()))
     clientPost := &http.Client{}
 
-    rq, _ := http.NewRequest("GET",
+    rq, _ := http.NewRequest("POST",
       sURL,
       bodyPost)
     //set header
+   rq.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
+   //rq.Header.Set("Accept-Encoding", "gzip, deflate, sdch")
+   rq.Header.Set("Accept-Language", "zh-CN,zh;q=0.8")
+   rq.Header.Set("Cache-Control", "max-age=0")
+   rq.Header.Set("Connection", "keep-alive")
     if len(oURLBring) > 1 {
       //set Header
       for k, v := range oURLBring[1] {
           rq.Header.Set(k, v)
       }
     }
-   rq.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
-   //rq.Header.Set("Accept-Encoding", "gzip, deflate, sdch")
-   rq.Header.Set("Accept-Language", "zh-CN,zh;q=0.8")
-   rq.Header.Set("Cache-Control", "max-age=0")
-   rq.Header.Set("Connection", "keep-alive")
 
    respPost, _ := clientPost.Do(rq)
    defer respPost.Body.Close()
@@ -93,4 +103,21 @@ func DoQueryByURL(sURL string, oURLBring []map[string]string) interface{} {
   // iconv.Convert(dataPost, out, "gb2312", "utf-8")
 
    return string(dataPost)
+}
+
+func GetPostDocSelect(oDoc interface{}, sSelector string) []string {
+    if nil == oDoc {
+      Error("sorry, the param named oDoc is can not be nil")
+      return []string{}
+    }
+
+    //doc goquery here
+    doc := oDoc.(*GoQuery.Selection)
+
+    var oReText []string
+    doc.Find(sSelector).Each(func(i int, s *GoQuery.Selection){
+        //for Each
+        oReText = append(oReText, s.Text())
+    })
+    return oReText
 }
