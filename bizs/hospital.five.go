@@ -18,6 +18,7 @@ import(
 )
 
 type five struct {
+  QueryGap int
   RootURL string
 }
 
@@ -35,6 +36,11 @@ func init(){
     //oArrayDoctors = make([]string)
     //统计号源
     oMapNumbers = make(map[string]string)
+
+    //set default
+    if "" == oIni.QueryGap || nil == oIni.QueryGap {
+        oIni.QueryGap = 4000
+    }
 }
 
 func loopPageQuery(sPage string){
@@ -199,6 +205,9 @@ func loopPageQuery(sPage string){
                   }
 
 
+                  //save to pgsql
+                  saveDataToPGSQL(oDataArray)
+
                   libs.SaveXlsx(
                     "第五医院信息表.xlsx",
                     "医生号源表",
@@ -220,7 +229,13 @@ func loopPageQuery(sPage string){
 //listen website with http
 func ListenWebSite(){
 
-    loopPageQuery("1")
+
+    //run and query data
+    for{
+      loopPageQuery("1")
+
+      time.Sleep(oIni.QueryGap)
+    }
     // oScripts := web.GoQueryByURLAndSelect(oIni.RootURL, "script")
     // var sAjaxScript string
     // if len(oScripts) > 7 {
@@ -236,4 +251,8 @@ func ListenWebSite(){
     //     fmt.Printf("", value, err)
     //   }
     // }
+}
+
+func saveDataToPGSQL(){
+
 }
