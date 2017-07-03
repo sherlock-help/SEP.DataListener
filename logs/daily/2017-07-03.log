@@ -1,0 +1,9 @@
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 08:27:02 CST]:*_* Response is nil
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 08:27:02 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 08:33:08 CST]:*_* Response is nil
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 08:34:09 CST]:*_* Response is nil
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 08:34:09 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 08:34:32 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 08:34:32 CST]:*_* Response is nil
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 08:35:16 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 08:35:18 CST]:*_* open 第五医院信息表.xlsx: The process cannot access the file because it is being used by another process.
