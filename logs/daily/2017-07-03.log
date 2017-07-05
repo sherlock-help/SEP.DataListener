@@ -8,3 +8,345 @@
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 08:35:16 CST]:$_$  => system named SEP.DataListener init success .. 
 [EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 08:35:18 CST]:*_* open 第五医院信息表.xlsx: The process cannot access the file because it is being used by another process.
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 13:38:24 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:16:21 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:20:05 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:21:39 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:22:14 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:23:45 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:30:11 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:43:09 CST]:*_* open $owns/bakerstreet-club.ini: The system cannot find the path specified.
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 17:43:57 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:44:00 CST]:*_* pq: 关系 "sys_base_users" 不存在
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 17:45:51 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:45:53 CST]:*_* pq: 关系 "sys_base_users" 不存在
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 17:46:29 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:46:31 CST]:*_* pq: 关系 "five.number" 不存在
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 17:51:28 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:31 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:32 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:33 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:34 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:35 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:36 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0x8b
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0x8b
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 17:51:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 18:05:27 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:37 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:38 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0x8b
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0x8b
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:39 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:40 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:41 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:42 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:43 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:44 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:45 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0x8b
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:46 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:47 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:48 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:49 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:50 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:51 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:51 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:51 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:51 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:51 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:52 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0x8b
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:52 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:52 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:52 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:52 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:52 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:53 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:53 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:53 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:53 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:53 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:54 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:54 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:54 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:54 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:54 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:55 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:55 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:55 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:55 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:55 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:56 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:56 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:56 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:57 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:57 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:57 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:57 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:57 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:57 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:58 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:58 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:58 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:58 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:58 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:05:59 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:00 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:00 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:00 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:00 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:00 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:00 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:01 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:01 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:01 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:01 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:01 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:02 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:02 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:02 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:02 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xac
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:06:02 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe4 0xb8
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:10:18 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-03 18:10:18 CST]:*_* pq: 无效的 "UTF8" 编码字节顺序: 0xe6 0x9c
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 18:18:12 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-03 18:21:25 CST]:$_$  => system named SEP.DataListener init success .. 

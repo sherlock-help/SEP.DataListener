@@ -5,6 +5,7 @@ import(
   "fmt"
   "strings"
   "strconv"
+  "time"
 
   //extends
   "SEP.DataListener/libs/ini"
@@ -15,17 +16,23 @@ import(
   web "SEP.DataListener/libs"
   "SEP.DataListener/libs"
   //"github.com/bakerstreet-club/otto"
+
+  fiveHospistal "SEP.DataListener/domain/xmsmjk"
 )
 
 type five struct {
-  QueryGap int
+  QueryGap time.Duration
   RootURL string
 }
 
 var (
     //set param
     oIni = ini.GetSecMap("web.five", &five{}).(*five)
+
+    oDoctors = []*fiveHospistal.Doctor{}
 )
+
+
 
 var oArrayDepts []string
 var oArrayDoctors []string
@@ -38,8 +45,10 @@ func init(){
     oMapNumbers = make(map[string]string)
 
     //set default
-    if "" == oIni.QueryGap || nil == oIni.QueryGap {
-        oIni.QueryGap = 4000
+    //fmt.Println(oIni.QueryGap)
+    //fmt.Println("========================================")
+    if 0 == oIni.QueryGap {
+        oIni.QueryGap = 1000000000
     }
 }
 
@@ -81,6 +90,11 @@ func loopPageQuery(sPage string){
       oThisWeek := v.Find(".div_index_bottom .div_bottom_isweek .isweek_ind")
       oNextWeek := v.Find(".div_index_bottom .div_bottom_nsweek .isweek_ind")
 
+
+      //put in doctor
+      oThisWeekInfo := []map[string]string{}
+      oNextWeekInfo := []map[string]string{}
+
       //这周
       var sThisFullText string
       var sThisNoFullText string
@@ -97,6 +111,13 @@ func loopPageQuery(sPage string){
             oFullSplit := strings.Split(sText, "|")
             oMapNumbers[sDoctor + "$" + oFullSplit[0]] = "0"
             sThisFullText += sText + "#"
+
+
+              oThisWeekInfo = append(oThisWeekInfo, map[string]string{
+                  "WeekInfo" : oFullSplit[0][:len(oFullSplit[0])-5],
+                  "DateInfo" : oFullSplit[0][len(oFullSplit[0])-5:],
+                  "NumberCount" : "0",
+              })
           })
           if "" != sThisFullText{
             sThisFullText = sThisFullText[:len(sThisFullText) - 1]
@@ -107,6 +128,13 @@ func loopPageQuery(sPage string){
             oNoFullSplit := strings.Split(sText, "|")
             oMapNumbers[sDoctor + "$" + oNoFullSplit[0]] = oNoFullSplit[1]
             sThisNoFullText += sText + "#"
+
+
+            oThisWeekInfo = append(oThisWeekInfo, map[string]string{
+                "WeekInfo" : oNoFullSplit[0][:len(oNoFullSplit[0])-5],
+                "DateInfo" : oNoFullSplit[0][len(oNoFullSplit[0])-5:],
+                "NumberCount" : oNoFullSplit[1],
+            })
           })
           if "" != sThisNoFullText {
             sThisNoFullText = sThisNoFullText[:len(sThisNoFullText) - 1]
@@ -126,26 +154,49 @@ func loopPageQuery(sPage string){
               oFullSplit := strings.Split(sText, "|")
               oMapNumbers[sDoctor + "$" + oFullSplit[0]] = "0"
               sNextFullText += sText + "#"
+
+
+              oNextWeekInfo = append(oNextWeekInfo, map[string]string{
+                  "WeekInfo" : oFullSplit[0][:len(oFullSplit[0])-5],
+                  "DateInfo" : oFullSplit[0][len(oFullSplit[0])-5:],
+                  "NumberCount" : "0",
+              })
           })
           if "" != sNextFullText {
               sNextFullText = sNextFullText[:len(sNextFullText) - 1]
           }
+
       }else{
           oNextWeek.Find("a").Each(func(index int, sel *GoQuery.Selection){
               sText := sel.Text()
               oNoFullSplit := strings.Split(sText, "|")
               oMapNumbers[sDoctor + "$" + oNoFullSplit[0]] = oNoFullSplit[1]
               sNextNoFullText += sText + "#"
+
+              oNextWeekInfo = append(oNextWeekInfo, map[string]string{
+                  "WeekInfo" : oNoFullSplit[0][:len(oNoFullSplit[0])-5],
+                  "DateInfo" : oNoFullSplit[0][len(oNoFullSplit[0])-5:],
+                  "NumberCount" : oNoFullSplit[1],
+              })
           })
           if "" != sNextNoFullText {
               sNextNoFullText = sNextNoFullText[:len(sNextNoFullText) - 1]
           }
+
       }
 
       //iThisWeekCount = v.Find(".div_index_bottom .div_bottom_isweek .isweek_ind span").Text()
       sDept := v.Find(".index_top_in_exp").Text()
       oArrayDepts = append(oArrayDepts, sDept)
       oArrayDoctors = append(oArrayDoctors, sDoctor)
+
+      //doctor struct save data
+      oDoctors = append(oDoctors, &fiveHospistal.Doctor{
+          Name : sDoctor,
+          DeptName : sDept,
+          ThisWeekInfo : oThisWeekInfo,
+          NextWeekInfo : oNextWeekInfo,
+      })
 
       fmt.Println(
         sDoctor +
@@ -206,7 +257,10 @@ func loopPageQuery(sPage string){
 
 
                   //save to pgsql
-                  saveDataToPGSQL(oDataArray)
+                  //saveDataToPGSQL(oDataArray)
+                  for _, v := range oDoctors{
+                      v.SaveDataToPGSQL()
+                  }
 
                   libs.SaveXlsx(
                     "第五医院信息表.xlsx",
@@ -229,11 +283,16 @@ func loopPageQuery(sPage string){
 //listen website with http
 func ListenWebSite(){
 
-
     //run and query data
+
+    // loopPageQuery("1")
+    // fmt.Println(oDoctors)
+    // return
     for{
       loopPageQuery("1")
 
+      fmt.Print(">>>>>>>>>>>>>>>>>>>>> wait for : ")
+      fmt.Println(oIni.QueryGap)
       time.Sleep(oIni.QueryGap)
     }
     // oScripts := web.GoQueryByURLAndSelect(oIni.RootURL, "script")
@@ -251,8 +310,4 @@ func ListenWebSite(){
     //     fmt.Printf("", value, err)
     //   }
     // }
-}
-
-func saveDataToPGSQL(){
-
 }
