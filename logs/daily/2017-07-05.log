@@ -15,3 +15,20 @@
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 06:51:25 CST]:$_$  => system named SEP.DataListener init success .. 
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 06:51:48 CST]:$_$  => system named SEP.DataListener init success .. 
 [INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 09:04:53 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:46:50 CST]:*_* pq: 数据库系统启动中
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 09:46:50 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:46:52 CST]:*_* pq: 数据库系统启动中
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:46:52 CST]:*_* pq: 数据库系统启动中
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:47:14 CST]:*_* pq: 数据库系统启动中
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 09:47:15 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:47:17 CST]:*_* pq: 数据库系统启动中
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:47:17 CST]:*_* pq: 数据库系统启动中
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:48:07 CST]:*_* pq: 数据库系统启动中
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 09:48:08 CST]:$_$  => system named SEP.DataListener init success .. 
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:48:10 CST]:*_* pq: 数据库系统启动中
+[EROR] (bakerstreet-club/logs.logMsg:93) [2017-07-05 09:48:10 CST]:*_* pq: 数据库系统启动中
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 09:54:27 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 11:56:10 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 13:51:10 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 15:46:19 CST]:$_$  => system named SEP.DataListener init success .. 
+[INFO] (bakerstreet-club/logs.logMsg:91) [2017-07-05 21:18:28 CST]:$_$  => system named SEP.DataListener init success .. 
