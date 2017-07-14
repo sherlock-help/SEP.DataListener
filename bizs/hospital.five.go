@@ -262,6 +262,12 @@ func loopPageQuery(sPage string){
                       v.SaveDataToPGSQL()
                   }
 
+
+
+                  //before the save xls return
+                  //the file append is too big
+                  return
+
                   libs.SaveXlsx(
                     "第五医院信息表.xlsx",
                     "医生号源表",
